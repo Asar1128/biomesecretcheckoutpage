@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Checkout</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="assets/css/fonts.css"/>
+        <link rel="stylesheet" href="./assets/css/index1.css">
+        <link rel="stylesheet" href="./assets/css/css-updated/index.css">    
+        <link rel="stylesheet" href="changes.css">
+    </head>
+    <body>
+        <header class="transparent-unfixed"><div class="nav-logo"> <a href="/" aria-label=""><img src="./assets/img/logo.svg" alt="logo"></a><div class="nav-language"><button class="btn-lang btn-link text-primary d-none"> <a href="/">Superfood Shakes</a> </button><button class="btn-lang btn-link text-primary d-none"> <a href="/">About</a> </button><div class="btn-nav btn-link d-flex"><input type="checkbox" id="side-nav-btn"><div class="side-bar-navigation"><ul class="navigation"><li> <a href="/terms">Terms of Service</a> </li><li> <a href="/privacy-policy">Privacy Policy</a> </li><li> <a href="/cookie-policy">Cookie Policy</a> </li><li> <a href="/refund-policy">Refund Policy</a> </li><li class="border-none"> <a href="/subscription-policy">Subscription Policy</a> </li></ul></div></div></div></div></header>
+    <div class="checkout-onepage">
+        <div class="">
+            <div class="checkout-onepage-content">
+                <div class="checkout-onepage-form">
+                    <div class="checkout-onepage-form-content">
+                        <div class="express-checkout d-flex">
+                            <div class="shop-pay">
+                                <img src="assets/img/shop-pay.png" />
+                            </div>
+                            <div class="pay-pal">
+                                <img src="assets/img/paypal.png" />
+                            </div>
+                            <div class="g-pal">
+                                <img src="assets/img/gpay.png" />
+                            </div>
+                        </div>
+                        <div class="or text-center my-20"><span>OR</span></div>
+                        <form>
+                            <div class="contact-section mb-30">
+                                <div class="d-flex mb-20 align-center">
+                                    <div class="fs-24">Contact</div>
+                                    <div class="ms-auto">Have an account? <a href="">Log in</a></div>
+                                </div>
+                                <div class="input-field mb-20" style="position: relative;">
+                                    <label  for="email" class="totop" id="totop" style="font-size: 13px;">Email</label>
+                                    <input type="email" placeholder="Email" class="email"  id="check-email"/>
+                                    <p id="error" style="color: red; display: none;">Enter your email please</p>
+                                    <p id="email-error" style="color: red; display: none;">Invalid email</p>
+                                </div>
+                                <div class="checkbox-field">
+                                    <label>
+                                        <input type="checkbox" class="email" />
+                                        Email me with news and offers
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="delivery-section mb-30">
+                                <div class="d-flex mb-20 align-center">
+        
+                                    <div class="fs-24">Delivery</div>
+                                </div>
+                                <div class="select-field mb-20">
+                                    <label for="delivery" class="totop" style="font-size: 13px;">Country/Region</label>
+                                    <select  aria-label="" aria-expanded="true" required="" tabindex="9" id="shipping-regionId" name="shipping.regionId" title="State" class="input-text email" autocomplete="off" data-testid="field-shipping"><option value="" role="option" selected="">Please select state</option><option value="1" role="option" title="AL">Alabama</option><option value="2" role="option" title="AK">Alaska</option><option value="4" role="option" title="AZ">Arizona</option><option value="5" role="option" title="AR">Arkansas</option><option value="12" role="option" title="CA">California</option><option value="13" role="option" title="CO">Colorado</option><option value="14" role="option" title="CT">Connecticut</option><option value="15" role="option" title="DE">Delaware</option><option value="16" role="option" title="DC">District of Columbia</option><option value="18" role="option" title="FL">Florida</option><option value="19" role="option" title="GA">Georgia</option><option value="21" role="option" title="HI">Hawaii</option><option value="22" role="option" title="ID">Idaho</option><option value="23" role="option" title="IL">Illinois</option><option value="24" role="option" title="IN">Indiana</option><option value="25" role="option" title="IA">Iowa</option><option value="26" role="option" title="KS">Kansas</option><option value="27" role="option" title="KY">Kentucky</option><option value="28" role="option" title="LA">Louisiana</option><option value="29" role="option" title="ME">Maine</option><option value="31" role="option" title="MD">Maryland</option><option value="32" role="option" title="MA">Massachusetts</option><option value="33" role="option" title="MI">Michigan</option><option value="34" role="option" title="MN">Minnesota</option><option value="35" role="option" title="MS">Mississippi</option><option value="36" role="option" title="MO">Missouri</option><option value="37" role="option" title="MT">Montana</option><option value="38" role="option" title="NE">Nebraska</option><option value="39" role="option" title="NV">Nevada</option><option value="40" role="option" title="NH">New Hampshire</option><option value="41" role="option" title="NJ">New Jersey</option><option value="42" role="option" title="NM">New Mexico</option><option value="43" role="option" title="NY">New York</option><option value="44" role="option" title="NC">North Carolina</option><option value="45" role="option" title="ND">North Dakota</option><option value="47" role="option" title="OH">Ohio</option><option value="48" role="option" title="OK">Oklahoma</option><option value="49" role="option" title="OR">Oregon</option><option value="51" role="option" title="PA">Pennsylvania</option><option value="53" role="option" title="RI">Rhode Island</option><option value="54" role="option" title="SC">South Carolina</option><option value="55" role="option" title="SD">South Dakota</option><option value="56" role="option" title="TN">Tennessee</option><option value="57" role="option" title="TX">Texas</option><option value="58" role="option" title="UT">Utah</option><option value="59" role="option" title="VT">Vermont</option><option value="61" role="option" title="VA">Virginia</option><option value="62" role="option" title="WA">Washington</option><option value="63" role="option" title="WV">West Virginia</option><option value="64" role="option" title="WI">Wisconsin</option><option value="65" role="option" title="WY">Wyoming</option></select>
+                                </div>
+                                <div class="group-fields mb-20 d-flex">
+                                    <div class="input-field ">
+                                        <label for="delivery" class="totop" style="font-size: 13px;" >First name</label>
+                                        <input type="text" placeholder="First name" id="fname" class="email" />
+                                    </div>
+                                    <div class="input-field ">
+                                        <label for="delivery" class="totop" style="font-size: 13px;">Last name</label>
+                                        <input class="email" type="text" placeholder="Last name" id="lname" />
+                                    </div>
+                                </div>
+                                <div class="input-field mb-20">
+                                    <label for="delivery" class="totop" style="font-size: 13px;">company</label>
+                                    <input class="email" type="text" placeholder="Company" id="company" />
+                                </div>
+                                <div class="input-field mb-20">
+                                    <label for="delivery" class="totop" style="font-size: 13px;">address </label>
+                                    <input class="email" type="text" placeholder="Address" id="address" />
+                                </div>
+                                <div class="input-field mb-20">
+                                    <label  for="delivery" class="totop" style="font-size: 13px;">appartment</label>
+                                    <input class="email" type="text" placeholder="Apartment, suite, etc. (optional)" id="apprtment" />
+                                </div>
+                                <div class="group-fields mb-20 d-flex">
+                                    <div class="input-field ">
+                                        <label for="delivery" class="totop" style="font-size: 13px;">city</label>
+                                        <input class="email" type="text" placeholder="City" id="city" />
+                                    </div>
+                                    <div class="select-field">
+                                        <label for="delivery" class="totop" style="font-size: 13px;">state</label>
+                                        <select class="email" aria-label="" aria-expanded="true" required="" tabindex="9" id="shipping-regionId" name="shipping.regionId" title="State" class="input-text" autocomplete="off" data-testid="field-shipping"><option value="" role="option" selected="">State</option><option value="1" role="option" title="AL">Alabama</option><option value="2" role="option" title="AK">Alaska</option><option value="4" role="option" title="AZ">Arizona</option><option value="5" role="option" title="AR">Arkansas</option><option value="12" role="option" title="CA">California</option><option value="13" role="option" title="CO">Colorado</option><option value="14" role="option" title="CT">Connecticut</option><option value="15" role="option" title="DE">Delaware</option><option value="16" role="option" title="DC">District of Columbia</option><option value="18" role="option" title="FL">Florida</option><option value="19" role="option" title="GA">Georgia</option><option value="21" role="option" title="HI">Hawaii</option><option value="22" role="option" title="ID">Idaho</option><option value="23" role="option" title="IL">Illinois</option><option value="24" role="option" title="IN">Indiana</option><option value="25" role="option" title="IA">Iowa</option><option value="26" role="option" title="KS">Kansas</option><option value="27" role="option" title="KY">Kentucky</option><option value="28" role="option" title="LA">Louisiana</option><option value="29" role="option" title="ME">Maine</option><option value="31" role="option" title="MD">Maryland</option><option value="32" role="option" title="MA">Massachusetts</option><option value="33" role="option" title="MI">Michigan</option><option value="34" role="option" title="MN">Minnesota</option><option value="35" role="option" title="MS">Mississippi</option><option value="36" role="option" title="MO">Missouri</option><option value="37" role="option" title="MT">Montana</option><option value="38" role="option" title="NE">Nebraska</option><option value="39" role="option" title="NV">Nevada</option><option value="40" role="option" title="NH">New Hampshire</option><option value="41" role="option" title="NJ">New Jersey</option><option value="42" role="option" title="NM">New Mexico</option><option value="43" role="option" title="NY">New York</option><option value="44" role="option" title="NC">North Carolina</option><option value="45" role="option" title="ND">North Dakota</option><option value="47" role="option" title="OH">Ohio</option><option value="48" role="option" title="OK">Oklahoma</option><option value="49" role="option" title="OR">Oregon</option><option value="51" role="option" title="PA">Pennsylvania</option><option value="53" role="option" title="RI">Rhode Island</option><option value="54" role="option" title="SC">South Carolina</option><option value="55" role="option" title="SD">South Dakota</option><option value="56" role="option" title="TN">Tennessee</option><option value="57" role="option" title="TX">Texas</option><option value="58" role="option" title="UT">Utah</option><option value="59" role="option" title="VT">Vermont</option><option value="61" role="option" title="VA">Virginia</option><option value="62" role="option" title="WA">Washington</option><option value="63" role="option" title="WV">West Virginia</option><option value="64" role="option" title="WI">Wisconsin</option><option value="65" role="option" title="WY">Wyoming</option></select>
+                                    </div>
+                                    <div class="input-field ">
+                                        <label for="delivery" class="totop" style="font-size: 13px;">Zip Code</label>
+                                        <input class="email" type="text" placeholder="Zip Code" id="zipcode" />
+                                    </div>
+                                </div>
+                                <div class="input-field ">
+                                    <label for="delivery" class="totop"style="font-size: 13px;" >phone</label>
+                                    <input class="email" type="tel" placeholder="Phone" id="phone" />
+                                </div>
+                            </div>
+                            <div class="shipping-method mb-30">
+                                <div class="fs-18 mb-20">
+                                    Shipping method
+                                </div>
+                                <div class="label">
+                                    Enter your shipping address to view available shipping methods.
+                                </div>
+                            </div>
+                            <div class="payment-section mb-30">
+                                <section class="accordion-container">
+                                    <div>
+                                        <input id="accordion-1" name="accordion-1" type="radio" checked/>
+                                            <label for="accordion-1" class="d-flex align-center accordion-head" id="checked-1">
+                                                Credit Card 
+                                                <span class="ms-auto d-flex align-center gap-2">
+                                                    <img src="assets/img/visa.svg" />
+                                                    <img src="assets/img/master.svg" />
+                                                    <img src="assets/img/amex.svg" />
+                                                    <img src="assets/img/unionpay.svg" />
+                                                    <img src="assets/img/union.svg" />
+                                                </span>
+                                            </label>
+                                            <section class="accordion-payment" id="Ac-payment" >
+                                                <div class="input-field mb-20">
+                                                    <label for="Card" class="totop" style="font-size: 13px;">card number</label>
+                                                    <input class="email" type="number" placeholder="Card number" id="cnumber"  />
+                                                    <p id="error" style="color: red; display: none;">Enter your card number  please</p>
+                                                </div>
+                                                <div class="group-fields mb-20 d-flex">
+                                                    <div class="input-field ">
+                                                        <label for="delivery" class="totop" style="font-size: 13px;">Expiration Date (MM/YY)</label>
+                                                        <input class="email" type="text" placeholder="Expiration Date (MM/YY)" id="edate" />
+                                                        <!-- <p id="error" style="color: red; display: none;">Enter a valid expiration date</p> -->
+                                                    </div>
+                                                    <div class="input-field ">
+                                                        <label for="Card" class="totop" style="font-size: 13px;">Security Code</label>
+                                                        <input class="email" type="text" placeholder="Security Code" id="scode" />
+                                                    </div>
+                                                </div>
+                                                <div class="input-field mb-20">
+                                                    <label for=" Name on Card" class="totop" style="font-size: 13px;">Name on Card</label>
+                                                    <input class="email" type="text" placeholder="Name on Card" id="ncard" />
+                                                </div>
+                                                <div class="checkbox-field">
+                                                    <label for="checkbox">
+
+                                                        <input type="checkbox" id="checkbox" />
+                                                        Use shipping address as billing address
+                                                    </label>
+                                                </div>
+                                                
+                                                <div id="billing_details" style=" display: none;"  >
+                                                    <div class="input-field mb-20" id="billing-address">
+                                                        <label for="Address" class="totop" style="font-size: 13px;" >Address</label>
+                                                        <input class="email" type="text" placeholder="Address" name="billing_address">
+                                                    </div>
+                                                    <div class="group-fields mb-20 d-flex">
+                                                        <div class="input-field" id="billing_city">
+                                                            <label for=" Name on Card" class="totop" style="font-size: 13px;">City</label>
+                                                            <input class="email" type="text" placeholder="City" required="required" name="billing_city">
+                                                        </div>
+                                                        <div class="select-field" id="billing_state">
+                                                            <label for=" Name on Card" class="totop" style="font-size: 13px;">state</label>
+                                                            <select class="email" required="required" name="billing_state" class="input-text">
+                                                                <option value="" role="option" selected="">State</option>
+                                                                <option value="1" role="option" title="AL">Alabama</option>
+                                                                <option value="2" role="option" title="AK">Alaska</option>
+                                                                <option value="3" role="option" title="AZ">Arizona</option>
+                                                                <option value="4" role="option" title="AR">Arkansas</option>
+                                                                <option value="5" role="option" title="CA">California</option>
+                                                                <option value="6" role="option" title="CO">Colorado</option>
+                                                                <option value="7" role="option" title="CT">Connecticut</option>
+                                                                <option value="8" role="option" title="DE">Delaware</option>
+                                                                <option value="9" role="option" title="DC">District of Columbia</option>
+                                                                <option value="10" role="option" title="FL">Florida</option>
+                                                                <option value="11" role="option" title="GA">Georgia</option>
+                                                                <option value="12" role="option" title="HI">Hawaii</option>
+                                                                <option value="13" role="option" title="ID">Idaho</option>
+                                                                <option value="14" role="option" title="IL">Illinois</option>
+                                                                <option value="15" role="option" title="IN">Indiana</option>
+                                                                <option value="16" role="option" title="IA">Iowa</option>
+                                                                <option value="17" role="option" title="KS">Kansas</option>
+                                                                <option value="18" role="option" title="KY">Kentucky</option>
+                                                                <option value="19" role="option" title="LA">Louisiana</option>
+                                                                <option value="20" role="option" title="ME">Maine</option>
+                                                                <option value="21" role="option" title="MD">Maryland</option>
+                                                                <option value="22" role="option" title="MA">Massachusetts</option>
+                                                                <option value="23" role="option" title="MI">Michigan</option>
+                                                                <option value="24" role="option" title="MN">Minnesota</option>
+                                                                <option value="25" role="option" title="MS">Mississippi</option>
+                                                                <option value="26" role="option" title="MO">Missouri</option>
+                                                                <option value="27" role="option" title="MT">Montana</option>
+                                                                <option value="28" role="option" title="NE">Nebraska</option>
+                                                                <option value="29" role="option" title="NV">Nevada</option>
+                                                                <option value="30" role="option" title="NH">New Hampshire</option>
+                                                                <option value="31" role="option" title="NJ">New Jersey</option>
+                                                                <option value="32" role="option" title="NM">New Mexico</option>
+                                                                <option value="33" role="option" title="NY">New York</option>
+                                                                <option value="34" role="option" title="NC">North Carolina</option>
+                                                                <option value="35" role="option" title="ND">North Dakota</option>
+                                                                <option value="36" role="option" title="OH">Ohio</option>
+                                                                <option value="37" role="option" title="OK">Oklahoma</option>
+                                                                <option value="38" role="option" title="OR">Oregon</option>
+                                                                <option value="39" role="option" title="PA">Pennsylvania</option>
+                                                                <option value="40" role="option" title="RI">Rhode Island</option>
+                                                                <option value="41" role="option" title="SC">South Carolina</option>
+                                                                <option value="42" role="option" title="SD">South Dakota</option>
+                                                                <option value="43" role="option" title="TN">Tennessee</option>
+                                                                <option value="44" role="option" title="TX">Texas</option>
+                                                                <option value="45" role="option" title="UT">Utah</option>
+                                                                <option value="46" role="option" title="VT">Vermont</option>
+                                                                <option value="47" role="option" title="VA">Virginia</option>
+                                                                <option value="48" role="option" title="WA">Washington</option>
+                                                                <option value="49" role="option" title="WV">West Virginia</option>
+                                                                <option value="50" role="option" title="WI">Wisconsin</option>
+                                                                <option value="51" role="option" title="WY">Wyoming</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="input-field" id="billing_zipcode">
+                                                            <label for=" Zp code" class="totop" style="font-size: 13px;">Zip code</label>
+                                                            <input class="email" type="text" placeholder="Zip code" required="required" name="billing_zipcode">
+                                                        </div>
+                                                    </div>
+                                                    <div class="select-field mb-20" id="billing_country">
+                                                        <label for=" Zip code" class="totop" style="font-size: 13px;">Billing country</label>
+                                                        <select class="email" required="required" name="billing_country" class="input-text">
+                                                            <option value="1" selected="" role="option" title="USA">USA</option>
+                                                            <option value="2" role="option" title="Canada">Canada</option>
+                                                            <option value="3" role="option" title="UK">United Kingdom</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="input-field" id="billing_phone">
+                                                        <label for=" Zip code" class="totop" style="font-size: 13px;" >phone</label>
+                                                        <input class="email" type="text" placeholder="Phone" maxlength="16" name="billing_phone">
+                                                    </div>
+                                                </div>
+                                                <div class="mt-20">
+                                                <button class="theme-btn text-decoration-none text-white w-100">
+                                                    <svg class="icon-checkout-lock" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="16" height="20" viewBox="0 0 16 20" fill="none">          <title>Lock icon</title>        <path d="M1.875 8.875H14.125V18.125H1.875V8.875Z" stroke="currentColor" stroke-width="1.75"></path>      <path d="M12 7V6C12 3.75925 10.2091 2 8 2C5.79086 2 4 3.79086 4 6V7" stroke="currentColor" stroke-width="1.75"></path>    </svg> 
+                                                      <span class="pl-10">Pay Now</span>
+                                                  </button>
+                                            </section>
+                                        </div>
+                                        <div>
+                                            <input id="accordion-2" name="accordion-1" type="radio"   />
+                                            <label for="accordion-2" class="d-flex align-center accordion-head" id="checkedtwo" for="accordion-1">
+                                                Paypal
+                                            <span class="ms-auto d-flex align-center gap-2">        
+                                                    <img src="assets/img/paypal-logo.png" width="100" />
+                                            </span>
+                                        </label>
+                                        <section class="accordion-payment">
+                                            <div class="text-center">
+                                                After clicking "Pay with PayPal", you will be redirected to PayPal to complete your purchase securely.<br>
+                                                <br><a href=""><img src="assets/img/paypal.png" ></a>
+                                            </div>
+    
+                                        </section>
+                                    </div>
+                                    
+                                  
+                                </section>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="checkout-onepage-flinks">
+                        <div class="checkout-onepage-flinks-content">
+                            <a href="">Refund Policy</a>
+                            <a href="">Shipping Policy</a>
+                            <a href="">Privacy Policy</a>
+                            <a href="">Terms of Service</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkout-onepage-products">
+                    <div class="checkout-onepage-products-content">
+                        <div class="product-item d-flex mb-20">
+                            <img src="assets/img/8.jpg" width="80" />
+                            <div class="pl-20">
+                                <div class="fs-16 mb-10">Rushfaster 16" EDC Backpack 22L</div>
+                                <div class="fs-12 color5">Black</div>
+                            </div>
+                            <div class="fs-16 fw-bold ms-auto pl-10">
+                                $120.00
+                            </div>
+                        </div>
+                        <div class="product-item d-flex mb-20 ">
+                            <img src="assets/img/7.jpg" width="80" />
+                            <div class="pl-20">
+                                <div class="fs-16 mb-10">Rushfaster 16" EDC Backpack 22L</div>
+                                <div class="fs-12 color5">Black</div>
+                            </div>
+                            <div class="fs-16 ms-auto fw-bold pl-10">
+                                $120.00
+                            </div>
+                        </div>
+                        <div class="group-fields mb-20 pt-20 d-flex">
+                            <div class="input-field ">
+                                <input type="text" placeholder="Discount code or gift card" id="gcard" />
+                            </div>
+                            <button class="theme-btn text-decoration-none text-white">
+                                Apply
+                            </button>
+                        </div>
+                        <div class="price-summary mt-30">
+                            <div class="d-flex mb-10 fs-16">
+                                <span class="">Subtotal</span>
+                                <span class="ms-auto">$120.00</span>
+                            </div>
+                            <div class="d-flex mb-10 fs-16">
+                                <span class="">Shipping</span>
+                                <span class="ms-auto fs-12">Enter shipping address</span>
+                            </div>
+                            <div class="d-flex mt-20 fs-20">
+                                <span class="">Total</span>
+                                <span class="ms-auto "><span class="fs-12">USD</span> 150.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="script.js"></script>
+    </body>
+</html>
